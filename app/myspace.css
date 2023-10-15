@@ -1,0 +1,62 @@
+body {
+  @apply !bg-[#e3e3e3];
+  @apply text-black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply !text-black;
+  @apply font-bold;
+}
+
+.title__orange {
+  @apply !text-[#ff6600];
+}
+
+.bg__orange {
+  @apply !bg-[#ffcc99];
+}
+
+.bg__darkblue {
+  @apply !bg-[#003399];
+}
+
+.bg__lightblue {
+  @apply !bg-[#6698cb];
+}
+
+.border__lightblue {
+  @apply border-[#60a5fa];
+  @apply border-2;
+}
+
+.interests-table {
+  border-spacing: 2px;
+}
+
+.interest-cell {
+  @apply !bg-[#b1d0f0];
+}
+
+.interest-content {
+  @apply !bg-[#d5e8fb];
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+}
+
+.myspace a {
+  @apply !text-[#003399];
+  @apply hover:!text-[#C00];
+  @apply hover:!underline;
+}
+
+.myspace-navigation a {
+  @apply hover:!underline;
+}
